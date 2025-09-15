@@ -1,19 +1,24 @@
- {
+{
   "name": "fcc-learn-npm-package-json",
-  "author": "foobar",
-  "dependencies": {
-    "express": "^4.14.0"
-  },
+  "version": "1.0.0",
+  "description": "A project that does something awesome",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
-  },
-  "engines": {
-    "node": "8.11.2"
   },
   "repository": {
     "type": "git",
     "url": "https://idontknow/todo.git"
   },
-	"author": "Osvaldo Guerra" 
+  "author": "Osvaldo Guerra",
+  "license": "MIT",
+  "keywords": [
+    "freecodecamp",
+    "npm",
+    "package.json"
+  ],
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
 }
